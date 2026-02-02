@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 13%;
+    width: 100%;
+    background-color: #0A0A23;
+    position: fixed;
+}
+
+nav ul{
+    height: 10%;
+    width: 100%;
+    list-style: none;
+    display: flex;
+}
+
+.Icon{
+    margin-right: 800px;
+    margin-left: 150px;
+} 
+
+nav ul li{
+    margin: 20px;
+    font-size: 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.section1{
+    margin-top: 1px;
+    background-color:#0A0A23;
+    color: #00F6FF;
+}
+
+.section1 .main{
+    display: flex;
+    justify-content: space-evenly;
+    height: 900px;
+    width: 100%;
+}
+
+.section1 .main .text p{
+    margin-top: 365px;
+    font-size: 25px;
+    height: 500px;
+    width: 500px;
+}
+
+.section1 .main .avtar img{
+    margin-top: 280px;
+    height:50% ;
+    width:100% ;
+}
+
+.section2{
+    height: 900px;
+    width: 100%;
+    background-color: #0A0A23;
+    color: #FF00C8;
+}
+
+.section2 .main2 h2{
+    font-size: 50px;
+    margin-left: 800px;
+}
+
+.section2 .main2 p{
+    margin-top: 2px;
+    font-size:30px;
+    height: 60%;
+    width: 80%;
+    margin-left:175px;
+}
+
+.section3{
+    height: 900px;
+    width: 100%;
+    border-color: #0A0A23;
+    background-color: #0A0A23;
+    color: #FF00C8;
+}
+
+.section3 .main3 .projects{
+    display: flex;
+}
+
+.section3 .main3 .projects .project{
+    height: 350px;
+    width: 400px;
+    margin: 5px;
+    margin-left: 170px;
+    margin-top: 15px;
+}
+
+.section3 .main3 .projects .project img{
+    height: 200px;
+    width: 400px;
+}
+
+.section3 .main3 .projects .project button {
+    height: 50px;
+    width: 100px;
+    margin: 8px;
+}
+
+.section3 .main3 h2 {
+    font-size: 50px;
+    margin-left: 800px;
+}
+
+.section4{
+    height: 900px;
+    width: 100%;
+    background-color:#0A0A23;
+}
+
+.section4 .main4 h2 {
+    font-size: 50px;
+    margin-left: 800px;
+}
+
+.section5 {
+    height: 900px;
+    width: 100%;
+    background-color: #0A0A23;
+}
+.section5 .main5 h2{
+    font-size: 50px;
+    margin-left: 800px;
+}
+
+.section5 .main5 .contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section5 .main5 .contact .con_info{
+    height: 500px;
+    width: 40%;
+    margin: 15px;
+}
+.section5 .main5 .contact .con {
+    height: 500px;
+    width: 40%;
+    margin: 15px;
+}
+.section5 .main5 .contact .con_info h4{
+    font-size: 35px;
+    /* margin: 20px; */
+}
+
+.section5 .main5 .contact .con_info p{
+    font-size: 23px;
+    margin:-3px;
+}
+.section5 .main5 .contact .con_info h3{
+    font-size: 29px;
+    margin: 15px;
+}
+
+.section5 .main5 .contact .con h4 {
+    font-size: 35px;
+    margin: 15px;
+    margin: 21px;
+    margin-top: 2px;
+}
+
+.section5 .main5 .contact .con label{
+    font-size: 25px;
+    margin: 15px;
+}
+
+.section5 .main5 .contact .con input{
+    font-size: 25px;
+    border-radius: 7px;
+    margin: 15px;
+}
+
+.section5 .main5 .contact .con button{
+    font-size: 25px;
+    margin: 15px;
+}
